@@ -1,2 +1,2 @@
-@Library('jenkins-shared@master') import useSpaPipeline
-useSpaPipeline dockerImageName: 'kubechief-angular-spa'
+@Library('jenkins-shared@master') import useNodeSpaPipeline
+useNodeSpaPipeline dockerImageName: 'kubechief-angular-spa'
